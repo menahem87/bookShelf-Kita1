@@ -1,0 +1,39 @@
+ul#bookList li div {
+	display: inline-block;
+	width: 30%;
+	
+}
+
+.left {
+	float: left;
+	font-size:30px;
+	
+}
+
+.right {
+	float: right;
+	font-size:30px;
+	text-align:right;
+}
+
+.center {
+	width: 40% !important;
+	text-align: center;
+	font-size:30px;
+}
+
+ul {
+	list-style-type: none;
+	width: 600px;
+	backgraund-color:gray;
+}
+
+ul#bookList li  {
+		border: 1px solid black;
+		padding: 20px;
+		
+}
+
+.brt{
+	color:black;
+}
