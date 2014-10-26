@@ -39,7 +39,7 @@ function addToList(book) {
 		newElement.appendChild(scoreDiv);
 		newElement.onclick= function(){
 			document.getElementById("buttonx").innerHTML.style.visibility == "visible" ;
-		}
+		};
 		var ul = document.getElementById("bookList");
 		ul.appendChild(newElement);
 }
