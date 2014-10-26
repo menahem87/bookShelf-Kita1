@@ -37,6 +37,9 @@ function addToList(book) {
 		newElement.appendChild(bookNameDiv);
 		newElement.appendChild(authorNameDiv);
 		newElement.appendChild(scoreDiv);
+		newElement.onclick= function(){
+			document.getElementById("buttonx").innerHTML.style.visibility == "visible" ;
+		}
 		var ul = document.getElementById("bookList");
 		ul.appendChild(newElement);
 }
@@ -44,5 +47,3 @@ function addToList(book) {
 function resetUl(){
 
 document.getElementById("bookList").innerHTML = "";
-
-}
