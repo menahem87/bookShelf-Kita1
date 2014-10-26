@@ -37,3 +37,7 @@ ul#bookList li  {
 .brt{
 	color:black;
 }
+
+#buttonx{
+visibility : hidden;
+}
